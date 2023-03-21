@@ -20,18 +20,28 @@
   flex-wrap: nowrap;
   justify-content: space-between;
   padding: 16px 32px;
+  margin-top: -70px;
 }
 
 .bc-left {
-  background-color: red;
   width: 50%;
   display: grid;
   grid-template-columns: 25% 75%;
 }
 
 .bc-description {
-  background-color: purple;
   text-align: left;
+  padding-top: 70px;
+}
+
+.bc-live-spot {
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  left: 5px;
+  top: 11px;
+  background: #f79009;
+  border-radius: 50px;
 }
 
 .bc-starting-time {
@@ -46,7 +56,23 @@
 .bc-description-lower {
   display: flex;
   flex-wrap: nowrap;
-  justify-content: space-evenly;
+  justify-content: space-around;
+  width: 50%;
+  margin-top: 8px;
+}
+
+.bc-live {
+  position: relative;
+  background: #fffaeb;
+  color: #b54708;
+  padding: 4px 12px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  padding: 4px 12px 4px 14px;
+  border-radius: 16px;
 }
 
 .bc-profile-picture {
@@ -65,4 +91,46 @@
   position: absolute;
   left: -16px;
   top: -5px;
+}
+
+.bc-right {
+  /* background-color: pink; */
+  width: 14%;
+}
+
+.bc-auction {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.bc-invite-link {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+  background-color: green;
+  /* width: 20%; */
+  text-align: right;
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  padding: 22px 14px;
+  gap: 8px;
+  /* width: 143px; */
+  height: 36px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  /* line-height: 20px; */
+  color: #344054;
+  margin-top: 70px;
 }

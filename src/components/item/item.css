@@ -1,0 +1,108 @@
+.item-section {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  padding: 12px;
+  gap: 12px;
+  width: 293.5px;
+  height: 413px;
+  background: #ffffff;
+  border: 1px solid #d0d5dd;
+  border-radius: 12px;
+  margin-top: 24px;
+}
+
+.item-highest-bidder {
+  color: #98a2b3;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+}
+
+.item-featured-image {
+  border-radius: 12px;
+  width: 269.5px;
+  height: 182px;
+  background: #f2f4f7;
+}
+
+.item-featured-image img {
+  width: 200px;
+}
+
+.item-bidder {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-around;
+}
+
+.item-bidder-nickname {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: center;
+  color: #475467;
+  background: #f2f4f7;
+  border-radius: 200px;
+  padding: 10px;
+}
+
+.item-bidder-name {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 12px;
+  line-height: 18px;
+  color: #344054;
+  margin-left: 10px;
+  margin-top: 25px;
+}
+
+.item-title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+  text-align: left;
+  color: #101828;
+}
+
+.item-price {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  text-align: left;
+  width: 100%;
+  border-bottom: 1px solid #eaecf0;
+  padding-bottom: 8px;
+}
+
+.item-price-title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #344054;
+  padding-right: 5px;
+}
+
+.item-btn {
+  background: #004ccc;
+  box-shadow: 0px 1px 2px rgba(16, 24, 40, 0.05);
+  border-radius: 8px;
+  width: 100%;
+  padding: 10px 16px;
+  color: #fff;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 20px;
+}

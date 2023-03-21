@@ -20,17 +20,22 @@ const BackCover = () => {
               Starts in: 3 days : 2 hours : 24 minutes
             </div>
             <div className="bc-description-lower">
-              <div className="bc-live">Not Live</div>
+              <div className="bc-live">
+                <div className="bc-live-spot"></div>
+                Not Live
+              </div>
               <div className="bc-auction">Layers Auction </div>
             </div>
           </div>
         </div>
 
         <div className="bc-right">
-          <Grid item xs={1}>
-            <ThumbUpOffAltIcon />
-          </Grid>
-          <h3>Accept Invite</h3>
+          <div className="bc-invite-link">
+            <Grid item xs={1}>
+              <ThumbUpOffAltIcon />
+            </Grid>
+            <h3>Accept Invite</h3>
+          </div>
         </div>
       </div>
     </div>
