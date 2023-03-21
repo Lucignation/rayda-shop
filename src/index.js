@@ -3,12 +3,17 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import CssBaseline from "@material-ui/core/CssBaseline";
 import { ThemeProvider } from "@material-ui/core/styles";
-import App from "./App";
+import App from "./pages/app/App";
 import theme from "./theme";
+import { Provider } from 'react-redux';
+import store from './store';
+
 ReactDOM.render(
-  <ThemeProvider theme={theme}>
-    <CssBaseline />
-    <App />
-  </ThemeProvider>,
+  <Provider store={store}>
+    <ThemeProvider theme={theme}>
+      <CssBaseline />
+      <App />
+    </ThemeProvider>
+  </Provider>,
   document.getElementById("root")
 );

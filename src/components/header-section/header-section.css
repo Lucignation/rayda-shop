@@ -1,0 +1,47 @@
+.header-section {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  border-bottom: 1px solid #eaecf0;
+  padding-bottom: 20px;
+}
+
+.hs-left {
+  text-align: left;
+}
+
+.hs-title {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 30px;
+  line-height: 38px;
+  color: #101828;
+}
+
+.hs-subtitle {
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 24px;
+  color: #475467;
+}
+
+.hs-right {
+  position: relative;
+}
+.hs-notification-number {
+  position: absolute;
+  background-color: red;
+  font-family: "IBM Plex Sans";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 18px;
+  color: #fff;
+  padding: 1px 6px;
+  border-radius: 50px;
+  right: -10px;
+  bottom: 33px;
+}
