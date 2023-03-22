@@ -1,12 +1,12 @@
 import * as React from "react";
 import CssBaseline from "@mui/material/CssBaseline";
 import Container from "@mui/material/Container";
-import "./App.css";
+import "./App.page.css";
 
 //importing of components
-import HeaderSection from "../../components/header-section/header-section";
-import BackCover from "../../components/back-cover/back-cover";
-import FeaturedItems from "../../components/featured-items/featured-items";
+import HeaderSection from "../../components/header-section/header-section.component";
+import BackCover from "../../components/back-cover/back-cover.component";
+import FeaturedItems from "../../components/featured-items/featured-items.component";
 
 function App() {
   return (

@@ -4,7 +4,7 @@ import Grid from "@mui/material/Grid";
 
 import ProfilePicture from "../../assets/images/pp.svg";
 
-import "./back-cover.css";
+import "./back-cover.component.css";
 
 const BackCover = () => {
   return (
@@ -13,7 +13,7 @@ const BackCover = () => {
       <div className="bc-bottom-info">
         <div className="bc-left">
           <div className="bc-profile-picture">
-            <img src={ProfilePicture} alt="user profile picture" />
+            <img src={ProfilePicture} alt="user profile avatar" />
           </div>
           <div className="bc-description">
             <div className="bc-starting-time">

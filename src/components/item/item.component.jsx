@@ -1,16 +1,16 @@
 import React from "react";
-import "./item.css";
+import "./item.component.css";
 
 const Item = ({ name, title, image, bid }) => {
   const nickNameArr = name.split(" ");
-  const nickname = `${nickNameArr[0][0]}${nickNameArr[1][0]}`;
-  console.log("Nick name", nickname);
+  const nickname = `${nickNameArr[0][0]}${nickNameArr[1][0]}`; //getting the nickname from the first letters in both first name and last name
+
   return (
     <div className="item-section">
       <div className="item-featured-image">
         <img
           src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/brand-compare/cat-page-brand-compare-xps-13-9320-sl-front-800x550.png?fmt=png-alpha&wid=800&hei=550"
-          alt="featured image"
+          alt="featured avatar"
         />
       </div>
       <div className="item-bidder">
