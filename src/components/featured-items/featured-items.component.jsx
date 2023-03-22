@@ -1,4 +1,4 @@
-import React, { useEffect, useState } from "react";
+import React, { useEffect } from "react";
 import Grid from "@mui/material/Grid";
 import { useDispatch, useSelector } from "react-redux";
 
@@ -16,24 +16,17 @@ const FeaturedItems = () => {
 
   const { products } = currentState.products;
 
-  console.log("Current state ", currentState);
-
-  console.log("P ", products);
-  const [_products, setProducts] = useState(products);
-
   useEffect(() => {
     const fetchProducts = async () => {
       const res = await getProducts();
-      console.log(res);
 
       if (res.data.success === true) {
-        console.log(res);
         dispatch(getAllProducts(res.data.data));
       }
     };
 
     fetchProducts();
-  }, []);
+  }, [dispatch]);
 
   const renderItems = products?.map((item, index) => {
     return (

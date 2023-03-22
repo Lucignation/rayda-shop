@@ -2,8 +2,10 @@ import React from "react";
 import "./item.component.css";
 
 const Item = ({ name, title, image, bid }) => {
-  const nickNameArr = name.split(" ");
-  const nickname = `${nickNameArr[0][0]}${nickNameArr[1][0]}`; //getting the nickname from the first letters in both first name and last name
+  const nickNameArr = name?.split(" ");
+  const nickname = nickNameArr
+    ? `${nickNameArr[0][0]}${nickNameArr[1][0]}`
+    : null; //getting the nickname from the first letters in both first name and last name
 
   return (
     <div className="item-section">

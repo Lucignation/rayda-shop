@@ -1,6 +1,6 @@
 import axiosInstance from "../config/axios.config";
 
-export const getProducts = async (url) => {
-  const res = await axiosInstance.get(url);
+export const getProducts = async () => {
+  const res = await axiosInstance.get();
   return res;
 };

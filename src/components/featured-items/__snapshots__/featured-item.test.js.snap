@@ -1,0 +1,54 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`the data is an array of products 1`] = `
+Array [
+  Object {
+    "bid": "₦795,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "John Doe",
+    "title": "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
+  },
+  Object {
+    "bid": "₦795,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "Peter Doe",
+    "title": "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
+  },
+  Object {
+    "bid": "₦795,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "Mary Doe",
+    "title": "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
+  },
+  Object {
+    "bid": "₦141,999",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "Paul Doe",
+    "title": "Samsung Galaxy A23, 4GB/128GB Memory, Android 12 - Balck",
+  },
+  Object {
+    "bid": "₦₦37,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "John Andrew",
+    "title": "Modern Office Table Desk Computer Table Furniture",
+  },
+  Object {
+    "bid": "₦37,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "Abi Jones",
+    "title": "Modern Office Table Desk Computer Table Furniture",
+  },
+  Object {
+    "bid": "₦120,000",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "John Doe",
+    "title": "Apple MacBook Air 13 M1 Chip 8GB 256GB 2020 Model - Rose Gold",
+  },
+  Object {
+    "bid": "₦141,999",
+    "image": "https://i.ibb.co/h7Bts6w/Imagelaptop.png",
+    "name": "Andrew Doe",
+    "title": "Phone 8 - 256GB, 4G LTE, Green (Refurbished)",
+  },
+]
+`;

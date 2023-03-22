@@ -1,0 +1,50 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Product renders a snapshot of <Item /> when passed into a component 1`] = `
+<div
+  className="item-section"
+>
+  <div
+    className="item-featured-image"
+  >
+    <img
+      alt="featured avatar"
+      src="https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/page/category/brand-compare/cat-page-brand-compare-xps-13-9320-sl-front-800x550.png?fmt=png-alpha&wid=800&hei=550"
+    />
+  </div>
+  <div
+    className="item-bidder"
+  >
+    <h3
+      className="item-bidder-nickname"
+    />
+    <h4
+      className="item-bidder-name"
+    >
+       
+      <span
+        className="item-highest-bidder"
+      >
+        (Highest Bidder)
+      </span>
+    </h4>
+  </div>
+  <div
+    className="item-title"
+  />
+  <div
+    className="item-price"
+  >
+    <span
+      className="item-price-title"
+    >
+      Current Bid:
+    </span>
+  </div>
+  <div
+    className="item-btn"
+  >
+    Add to wishlist
+  </div>
+</div>
+`;
