@@ -8,10 +8,10 @@ const _product = {
   bid: "₦795,000",
 };
 
-const {name} = _product;
+const { name } = _product;
 
 const nickNameArr = name.split(" ");
-const nickname = `${nickNameArr[0][0]}${nickNameArr[1][0]}`; 
+const nickname = `${nickNameArr[0][0]}${nickNameArr[1][0]}`;
 
 const mockProps = {
   product: _product,

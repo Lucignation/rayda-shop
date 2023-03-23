@@ -8,7 +8,7 @@
 }
 
 .bc-cover-image {
-  background-image: url("../../assets/images/cover-bg.svg");
+  background-image: url("../../../assets/images/cover-bg.svg");
   height: 192px;
   background-repeat: no-repeat;
   background-size: cover;
@@ -94,7 +94,6 @@
 }
 
 .bc-right {
-  /* background-color: pink; */
   width: 14%;
 }
 
@@ -111,8 +110,6 @@
   display: flex;
   flex-wrap: nowrap;
   justify-content: space-around;
-  background-color: green;
-  /* width: 20%; */
   text-align: right;
   display: flex;
   flex-direction: row;
@@ -130,7 +127,6 @@
   font-style: normal;
   font-weight: 600;
   font-size: 14px;
-  /* line-height: 20px; */
   color: #344054;
   margin-top: 70px;
 }

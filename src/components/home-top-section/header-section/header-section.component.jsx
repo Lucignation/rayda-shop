@@ -1,7 +1,9 @@
 import React from "react";
-import "./header-section.component.css";
+
 import Grid from "@mui/material/Grid";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
+
+import "./header-section.component.css";
 
 const HeaderSection = () => {
   return (

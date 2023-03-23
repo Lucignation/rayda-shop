@@ -2,7 +2,7 @@ import React from "react";
 import ThumbUpOffAltIcon from "@mui/icons-material/ThumbUpOffAlt";
 import Grid from "@mui/material/Grid";
 
-import ProfilePicture from "../../assets/images/pp.svg";
+import ProfilePicture from "../../../assets/images/pp.svg";
 
 import "./back-cover.component.css";
 

@@ -46,10 +46,6 @@
 }
 
 .grid-items {
-  /* display: flex;
-  flex-wrap: nowrap;
-  gap: 24px;
-  justify-content: space-between; */
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   grid-gap: 24px;
