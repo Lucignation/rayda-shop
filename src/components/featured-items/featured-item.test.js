@@ -1,17 +1,3 @@
-// import axiosInstance from "../../config/axios.config";
-
-// const fetchData = async () => {
-//   const res = await axiosInstance.get();
-//   return res.data.data;
-// };
-
-// const mockData = fetchData();
-
-// test("the data is an array of products", async () => {
-//   const data = await fetchData();
-//   expect(data).toMatchSnapshot(mockData);
-// });
-
 import React from "react";
 import renderer from "react-test-renderer";
 import { Provider } from "react-redux";
@@ -21,7 +7,6 @@ import { setupServer } from "msw/node";
 import FeaturedItems from "./featured-items.component";
 import { useGetPostsQuery } from "../../features/api/apiSlice";
 import { store } from "../../store";
-import jest from "jest";
 
 const server = setupServer(
   rest.get(
@@ -64,7 +49,9 @@ describe("Featured Products", () => {
   store.getState();
   it("renders correctly", async () => {
     const store = configureStore({
-      reducer: () => ({ [useGetPostsQuery.reducerPath]: useGetPostsQuery.reducer }),
+      reducer: () => ({
+        [useGetPostsQuery.reducerPath]: useGetPostsQuery.reducer,
+      }),
       middleware: (getDefaultMiddleware) =>
         getDefaultMiddleware().concat(useGetPostsQuery.middleware),
     });

@@ -14,7 +14,7 @@ You may also see any lint errors in the console.
 
 ### `npm run test`
 
-Jest was used for the test.
+React Test Renderer was used for the test.
 
 ### `npm run build`
 
